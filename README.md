@@ -4,31 +4,31 @@ Avaliação dia 22/08
 
 COMANDOS DE GIT
 
-branch --> ramificações, situações para adicionar um novo recurso ou corrigir um erro gerando uma nova ramificação garantindo qu eo código instável não seja mesclado nos arquivos do projeto principal. Tipos de branchs (main/master/prod, release/hml, dev, bugfix, feature).
+branch : ramificações, situações para adicionar um novo recurso ou corrigir um erro gerando uma nova ramificação garantindo qu eo código instável não seja mesclado nos arquivos do projeto principal. Tipos de branchs (main/master/prod, release/hml, dev, bugfix, feature).
 
-merge --> usado para integrar as mudanças de um branch em outro. É uma operação essencial para combinar o trabalho de diferentes branches, como quando você está desenvolvendo uma nova funcionalidade em um branch separado e deseja incorporar essas mudanças ao branch principal (geralmente chamado de main ou master).
+merge : usado para integrar as mudanças de um branch em outro. É uma operação essencial para combinar o trabalho de diferentes branches, como quando você está desenvolvendo uma nova funcionalidade em um branch separado e deseja incorporar essas mudanças ao branch principal (geralmente chamado de main ou master).
 
-commit --> operação que registra mudanças no repositório Git. Cada commit tem um identificador único (hash) e pode incluir uma mensagem descritiva que explica as alterações feitas. Nunca commitar na main/master/prod, para isso abrimos branchs.
+commit : operação que registra mudanças no repositório Git. Cada commit tem um identificador único (hash) e pode incluir uma mensagem descritiva que explica as alterações feitas. Nunca commitar na main/master/prod, para isso abrimos branchs.
 
-feat --> algo relacionado com features que você adicionar.
+feat : algo relacionado com features que você adicionar.
 
-fix --> algo para corrigir.
+fix : algo para corrigir.
 
-docs --> algo relacionado a documentações, README e afins.
+docs : algo relacionado a documentações, README e afins.
 
-style --> algo relacionado com estilização.
+style : algo relacionado com estilização.
 
-refactor --> algo relacionado com refatorção (refazer).
+refactor : algo relacionado com refatorção (refazer).
 
-perf --> algo relacionado a performace.
+perf : algo relacionado a performace.
 
-test --> algo com testes.
+test : algo com testes.
 
-chore --> algo para coisas relacionados a build, configs e afins. Exemplo: use esse, seja utilizando a versão do pacote ou instalando novas dependências.
+chore : algo para coisas relacionados a build, configs e afins. Exemplo: use esse, seja utilizando a versão do pacote ou instalando novas dependências.
 
-Verificação de comando --> abra o terminal, digite git --version.
+Verificação de comando : abra o terminal, digite git --version.
 
-Configuração --> configurar git local com os comandos:
+Configuração : configurar git local com os comandos:
     >git config --global user.name "Seu nome"
     >git config --global user.email "seuEmail@email.com"
 
